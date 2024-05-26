@@ -41,6 +41,7 @@ public class testOnTrackUtil {
 
 		// assert
 		Assert.assertArrayEquals(receivedUnitNames, studentUnits); // test fail
+
 	}
 
 	@Test
@@ -55,6 +56,7 @@ public class testOnTrackUtil {
 
 		// assert
 		Assert.assertEquals(task1ExpectedValue, task1Value); // test fail
+
 	}
 
 	@Test
@@ -65,6 +67,7 @@ public class testOnTrackUtil {
 
 		// assert
 		Assert.assertEquals(receivedPassedTasks, studentPassedTaskList);
+
 	}
 
 }
