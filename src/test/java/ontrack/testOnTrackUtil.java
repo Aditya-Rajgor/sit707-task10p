@@ -40,8 +40,7 @@ public class testOnTrackUtil {
 		String[] receivedUnitNames = onTrackUtils.getUnits(studentID);
 
 		// assert
-//		Assert.assertArrayEquals(receivedUnitNames, studentUnits); // test fail
-		Assert.assertTrue(true);
+		Assert.assertArrayEquals(receivedUnitNames, studentUnits); // test fail
 	}
 
 	@Test
@@ -55,8 +54,7 @@ public class testOnTrackUtil {
 		Boolean task1Value = resultTaskStatus.get("Task1.1");
 
 		// assert
-//		Assert.assertEquals(task1ExpectedValue, task1Value); // test fail
-		Assert.assertTrue(true);
+		Assert.assertEquals(task1ExpectedValue, task1Value); // test fail
 	}
 
 	@Test
@@ -66,8 +64,7 @@ public class testOnTrackUtil {
 		List<String> receivedPassedTasks = onTrackUtils.getPassedTasks(studentID);
 
 		// assert
-//		Assert.assertEquals(receivedPassedTasks, studentPassedTaskList);
-		Assert.assertTrue(true);
+		Assert.assertEquals(receivedPassedTasks, studentPassedTaskList);
 	}
 
 }
