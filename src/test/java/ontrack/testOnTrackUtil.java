@@ -34,7 +34,7 @@ public class testOnTrackUtil {
 
 	@Test
 	public void testGetUnitNames() {
-		String[] studentUnits = { "SIT707", "SIT770", "SIT743" };
+		String[] studentUnits = { "SIT707", "SIT770", "SIT7s43" };
 
 		// received
 		String[] receivedUnitNames = onTrackUtils.getUnits(studentID);
